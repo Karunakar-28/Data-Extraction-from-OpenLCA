@@ -20,6 +20,9 @@ get_all_data(client,ids_list)
 print("Data Collection Completed")
 
 
+# Reference:
+# https://greendelta.github.io/olca-schema/classes/Exchange.html
+
 
 
 
