@@ -38,7 +38,7 @@ def extract_exchange_data(exchange):
                 'Currency':[exchange.currency],
                 'Uncertainity':[exchange.uncertainty],
                 'Is avoided?' : [exchange.is_avoided_product],
-                'Provider': [exchange.default_provider],
+                'Provider': [exchange.default_provider.name if exchange.default_provider else exchange.default_provider],
                 'Data quality entry': [exchange.dq_entry],
                 'Location': [exchange.location],
                 'Description': [exchange.description]
